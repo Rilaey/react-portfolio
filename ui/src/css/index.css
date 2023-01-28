@@ -1,0 +1,102 @@
+* {
+  margin: 0 auto;
+  background-color: black;
+}
+
+.top-head {
+  color: #fff;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.link:hover {
+  color: red;
+  font-size: 18px;
+}
+
+.main-head {
+  border-top: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.middle-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 70%;
+}
+
+.main-body, .about-head {
+  background-color: black;
+}
+
+.header-txt {
+  background: none;
+  color: #fff;
+}
+
+.card-txt {
+  color: #fff;
+}
+
+.test2 {
+  background-color: gray;
+  border-radius: 7%;
+}
+
+@media screen and (max-width: 300px) {
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+
+  .link {
+    margin: 3px auto;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .middle-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .profile-pic {
+    margin: 25px auto;
+  }
+}
