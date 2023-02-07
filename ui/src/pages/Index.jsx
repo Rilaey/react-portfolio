@@ -1,8 +1,8 @@
 import React from "react";
-import Navlinks from "./Navlinks";
-import AboutHeader from "../About/AboutHeader";
+import AboutHeader from "../components/About/AboutHeader"
+import Navlinks from "../components/Nav/Navlinks";
 
-export default function Navheader() {
+export default function Index() {
   return (
     <div>
       <section className="container test">
@@ -11,9 +11,9 @@ export default function Navheader() {
             <h1 className="top-head">Welcome To My Portfolio</h1>
           </div>
         </div>
-        <Navlinks />
       </section>
-    <AboutHeader />
+      <Navlinks />
+      <AboutHeader />
     </div>
   );
 }

@@ -1,10 +1,11 @@
-import './css/index.css';
-import Navheader from './Nav/Navheader';
+import "./css/index.css";
+import Router from "./Router";
+
 
 function App() {
   return (
     <div>
-      <Navheader />
+      <Router />
     </div>
   );
 }
