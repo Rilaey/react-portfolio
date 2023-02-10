@@ -8,8 +8,10 @@ export default function Navlinks() {
     <div className='nav-links'>
         <a className='link' onClick={() => location('/')}>About Me</a>
         <a className='link' onClick={() => location('/projects')}>Projects</a>
-        <a className='link'>Resume</a>
-        <a className='link'>Contact Info</a>
+        <a className='link' href='https://github.com/Rilaey'>Github</a>
+        <a className='link' href='https://www.linkedin.com/in/riley-newhart-667b43128/'>LinkedIn</a>
+        <a className='link' href='https://docs.google.com/document/d/1gner4IKZKi82utzKT7yQvoN6UxOz9slGSdbjiIV_LgM/edit'>Resume</a>
+        <a className='link' onClick={() => location('/contact')}>Contact Info</a>
     </div>
   )
 }

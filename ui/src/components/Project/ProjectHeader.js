@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../css/index.css';
 import ProjectOne from './ProjectOne'
+import ProjectTwo from './ProjectTwo'
+import ProjectThree from './ProjectThree'
 
 export default function ProjectHeader() {
   return (
@@ -9,6 +11,8 @@ export default function ProjectHeader() {
         <h2 className='header-txt'>Projects</h2>
     </div>
         {<ProjectOne />}
+        {<ProjectTwo />}
+        {<ProjectThree />}
     </div>
   )
 }

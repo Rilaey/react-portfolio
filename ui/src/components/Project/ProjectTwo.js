@@ -1,5 +1,5 @@
 import React from 'react'
-import ParkFinderLogo from '../../img/ParkFinderLogo'
+import ParkFinderLogo from '../../img/ParkFinderLogo.png'
 import '../../css/index.css'
 
 export default function ProjectOne() {
