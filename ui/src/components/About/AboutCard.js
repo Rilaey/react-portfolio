@@ -11,14 +11,12 @@ export default function AboutCard() {
         </div>
         <div className="col-6 test2">
           <p className="card-txt test2">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn't anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet.
+            I began my coding journey half way through 2022 and quickly fell in love with
+            learning and the problem solving aspects of programming. About a year after being
+            self taught I enrolled at the University of Central Flordia full stack coding bootcamp
+            to have a more structured learning process. Currently I'm looking for my first job
+            in this field and I would love to dive head first into the industry! Thank you for
+            checking out my portfolio and giving me the chance of a lifetime!
           </p>
         </div>
       </div>

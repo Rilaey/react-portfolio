@@ -11,7 +11,7 @@ export default function Navlinks() {
         <a className='link' href='https://github.com/Rilaey'>Github</a>
         <a className='link' href='https://www.linkedin.com/in/riley-newhart-667b43128/'>LinkedIn</a>
         <a className='link' href='https://docs.google.com/document/d/1gner4IKZKi82utzKT7yQvoN6UxOz9slGSdbjiIV_LgM/edit'>Resume</a>
-        <a className='link' onClick={() => location('/contact')}>Contact Info</a>
+        {/* <a className='link' onClick={() => location('/contact')}>Contact Info</a> */}
     </div>
   )
 }
